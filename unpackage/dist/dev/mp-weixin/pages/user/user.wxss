@@ -1,0 +1,57 @@
+
+.head {
+	width: 750rpx;
+	height: 250rpx;
+	background-color: #74E868;
+}
+.top-func {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	top: -2rpx;
+	height: 72rpx;
+}
+.avatar {
+	position: relative;
+	left: 316rpx;
+	width: 120rpx;
+	height: 120rpx;
+	top: -24rpx;
+	border-radius: 50%;
+}
+.username {
+	position: relative;
+	left: 345rpx;
+	top: -20rpx;
+}
+.middle {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	padding: 15px 0;
+	width: 350px;
+	height: 250px;
+	background-color: #F0F8FF;
+	border-radius: 5%;
+}
+.mid-func {
+	margin: 15px;
+	border-bottom: 1px solid;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.icon .iconfont {
+	position: relative;
+	top: -10rpx;
+}
+.small-func {
+	position: relative;
+	left: -200rpx;
+	top: -18rpx;
+}
+.icon .iconfont .icon-youjiantou {
+	position: relative;
+	top: -8rpx;
+}
+

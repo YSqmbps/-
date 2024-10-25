@@ -1,0 +1,130 @@
+
+.scroll-text {
+	font-size: 12px;
+	display: inline-block;
+	-webkit-animation: scroll 18s linear infinite;
+	        animation: scroll 18s linear infinite;
+	/* 动画持续时间和速度可以调整 */
+}
+@-webkit-keyframes scroll {
+0% {
+		-webkit-transform: translateX(100%);
+		        transform: translateX(100%);
+		/* 初始位置在视口外 */
+}
+100% {
+		-webkit-transform: translateX(-100%);
+		        transform: translateX(-100%);
+		/* 到达视口外 */
+}
+}
+@keyframes scroll {
+0% {
+		-webkit-transform: translateX(100%);
+		        transform: translateX(100%);
+		/* 初始位置在视口外 */
+}
+100% {
+		-webkit-transform: translateX(-100%);
+		        transform: translateX(-100%);
+		/* 到达视口外 */
+}
+}
+.nsetFunctions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-left: 25rpx;
+	width: 700rpx;
+	height: 266rpx;
+	position: relative;
+	top: -10rpx;
+	box-sizing: border-box;
+	/* background-color: antiquewhite; */
+}
+.func {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin: 15rpx 25rpx;
+	width: 310rpx;
+	height: 60px;
+	background-color: #34D762;
+	/* border: 1px solid; */
+	border-radius: 5%;
+	box-sizing: border-box;
+	position: relative;
+}
+.text {
+	font-size: 14px;
+	margin-left: 10px;
+}
+.icon {
+	margin-top: 4px;
+	width: 90rpx;
+	height: 40px;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+}
+.icon-iconfontscan {
+	/* 添加根据字体图标库的特定样式，如果需要 */
+}
+.nestSituation {
+	margin: 5px 0;
+	margin-left: 25rpx;
+	width: 700rpx;
+	height: 130px;
+	background-color: #34d762;
+}
+.currentNest {
+	height: 43px;
+}
+.currentNest-text {
+	width: 125rpx;
+	display: block;
+	position: relative;
+	left: 70rpx;
+	top: -58rpx;
+	font-size: 13px;
+}
+.views {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+.views-container {
+	/* border: 1px solid; */
+	border-radius: 5%;
+	width: 110px;
+	height: 60px;
+	background-color: white;
+}
+.views-func {
+	font-size: 14px;
+	width: 77rpx;
+	position: relative;
+	left: 20rpx;
+	top: 30rpx;
+}
+.views-func-detail {
+	font-size: 9px;
+	width: 110rpx;
+	position: relative;
+	left: 20rpx;
+	top: 33rpx;
+}
+.bird-image {
+	position: relative;
+	left: 25rpx;
+	top: 25rpx;
+	width: 700rpx;
+	height: 535rpx;
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 5%;
+}
+
